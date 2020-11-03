@@ -22,7 +22,7 @@ the "sled", but I haven't tested this.
 The total cost of parts is about $100.
 
 .. image:: images/syringe_pump_3.jpg
-  :width: 80%
+  :width: 50%
   :align: center
 
 Control Software
