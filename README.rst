@@ -9,15 +9,17 @@ that it can be plugged easily into a USB port and controlled using the drivers
 from Pololu.
 
 This design was inspired by C.A. Varnon's `open source design <http://cavarnon.com/syringepump>`_.
-It very similar, but a bit more compact, being designed for a smaller stepper
+It's very similar, but a bit more compact, being designed for a smaller stepper
 motor and smaller syringe.
 
 The main disadvantage of the design is that there is a significant backlash,
 which leads to hysteresis when changing the direction of pumping. For my
-application, this is not too great of a concern, as each pump will operate in
+application, this is not much of a concern, as each pump will operate in
 only one direction. However, it may be an issue in some cases. I think it may
 be correctable with the addition of a tension spring between the end-plate and
-the "sled", but I haven't tested this.
+the "sled", but I haven't tested this. It's probably necessary to get a longer
+U-channel in order to accomodate the spring and still be able to actuate the full
+plunger depth.
 
 The total cost of parts is about $100.
 
